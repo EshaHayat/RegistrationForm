@@ -1,0 +1,88 @@
+/* Reset some default styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ece8e8;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #4b4949;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    /* border: 1px solid #6a6969; */
+    border-radius: 5px;
+    background-color: rgb(239, 241, 241);
+    border: 1px solid #1b1c1d; /* Change the border color on hover */
+
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="tel"]:hover,
+input[type="date"]:hover,
+select:hover {
+    border: 1px solid #1b1c1d; /* Change the border color on hover */
+    box-shadow: 0 0 1px rgba(51, 52, 54, 0.7); /* Add a subtle shadow on hover */
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2b2b2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #36383a;
+}
+
+
+
+
+
